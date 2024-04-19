@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/src/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Practice-one_files/styles.css">
+    <link rel="stylesheet" href="./Practice-one_files/all.min.css">
+    <title>Practice-one</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+           <div class="nav-logo">
+            <a href="http://127.0.0.1:5500/src/index.html#">
+                <img src="./Practice-one_files/logo-product.png" alt="">
+            </a>
+            <span class="nav-text">Product</span>
+           </div>
+
+           <ul class="nav-links">
+                <li class="link"><a href="http://127.0.0.1:5500/src/index.html#">Product</a></li>
+                <li class="link"><a href="http://127.0.0.1:5500/src/index.html#">Customers</a></li>
+                <li class="link"><a href="http://127.0.0.1:5500/src/index.html#">Pricing</a></li>
+                <li class="link"><a href="http://127.0.0.1:5500/src/index.html#">Resources</a></li>
+                <li><button class=" btn btn-signin">Sign In</button></li>
+                <li><button class="btn btn-signup">Sign Up</button></li> 
+           </ul>    
+        </div>
+    </div>
+    
+    <section class="introduction">
+        <div class="content">
+            <h1>Work at the speed of thought</h1>
+            <p>Tools,tutorials, design and innovation experts,all in one place! The most intutive way to imagine your next user experience</p>
+            <button class="btn-getstarted">Get started</button>
+            <a class="link-watchvideo" href="http://127.0.0.1:5500/src/index.html#">Watch the Video</a>
+        </div>
+        <div class="image">
+            <img src="./Practice-one_files/amico.png" alt="">
+        </div>
+    </section>
+
+    <section class="page-signup">
+        <h1>Product was Built Specifically for You</h1>
+        <div class="list-card">
+            <div class="card">
+                <div class="icon icon-click">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                </div>
+                <h3>First click tests</h3>
+                <p>While most people enjoy casino gambling</p>
+            </div>
+            <div class="card">
+                <div class="icon icon-design">
+                    <i class="fa-solid fa-pen-nib"></i>
+                </div>
+                <h3>Design surveys</h3>
+                <p>Sports betting,lottery and bingo playing for the fun</p>
+            </div>
+            <div class="card">
+                <div class="icon icon-heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <h3>Preference tests</h3>
+                <p>The Myspace page defines te individual</p>
+            </div>
+            <div class="card">
+                <div class="icon icon-time">
+                    <i class="fa-solid fa-hourglass-half"></i>
+                </div>
+                <h3>Five second tests</h3>
+                <p>Personal choices and the overall personality of te person</p>
+            </div>
+        </div>
+        <button class="btn-signup">SIGN UP NOW</button>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

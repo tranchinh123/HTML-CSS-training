@@ -101,5 +101,88 @@ h1{
     font-size: 16px;
     line-height: 24px;
     text-decoration: underline;
-  
 }
+/* page-signup */
+.page-signup{
+    width: 1120px;
+    height: 543px;
+    margin: auto;
+    margin-top: 50px;
+}
+.page-signup h1 {
+    font-weight: 700;
+    size: 32px;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.list-card {
+    display: flex;
+    color:white; 
+    margin:auto;
+    width: 100%;
+    height: 204px;
+    justify-content:space-between ;
+}
+.list-card .card {
+    width: 245px;
+    height: 178px;
+}
+.list-card .card h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+.list-card .card p {
+    font-weight: 400;
+    line-height: 26px;
+}
+.icon {
+    width: 52px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.icon-click {
+    background-color: #02897A;
+}
+.icon-design{
+    background-color: #4D8DFF;
+}
+.icon-heart {
+    background-color:#740A76;
+    
+}
+.icon-time {
+   background-color: #F03E3D;
+}
+.btn-signup {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.page-signup .btn-signupnow{
+    text-align: center;
+    width: 244px;
+    height: 53px;
+    color: white;
+    background-color: #02897A;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 20px;
+}
+.page-signup .singup-now{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
