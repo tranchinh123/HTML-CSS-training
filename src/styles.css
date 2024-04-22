@@ -20,11 +20,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 .nav-text{
     color: white;
     font-size: 30px;
     padding-left: 10px;
+    position: relative;
+    top:-7px
 }
 .nav-links{
     list-style: none;
@@ -332,6 +335,7 @@ h1{
     letter-spacing: 0.2px;
     text-align: center;
     margin-right: 10px;
+    color: #02897A;
 }
 .price-month {
     margin-bottom: 20px;
@@ -340,12 +344,34 @@ h1{
     margin-left: -83px;
     font-size: 24px;
     font-weight: 700;
+    color: #02897A;
 }
 .per-month h3 {
     font-weight: 300;
     letter-spacing: 0.1px;
     line-height: 19px;
+    color: #AFAFAF;
 }
+.total-price-standard h1 {
+    font-weight: 700;
+    font-size: 76px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-right: 10px;
+}
+.per-month-standard h2 {
+    margin-left: -83px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+.per-month-standard h3 {
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    line-height: 19px;
+    color: #AFAFAF;
+}
+
 
 /* footer */
 .footer {
@@ -385,7 +411,6 @@ h1{
     top: 5px;
     right: -6px;
 }
-
 .footer p {
     color: white;
     font-size: 16px;
