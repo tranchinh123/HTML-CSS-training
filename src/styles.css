@@ -362,9 +362,35 @@ h1{
     border-radius: 50%;
     color: #EDFFFC;
     font-size: 30px;
-    margin-right: 10px;
-    color: #EDFFFC;
+    margin-right: 15px;
+    color:#02897A;
+    background-color: white;
+    
 }
+.fa-instagram:before {
+    content: "";
+    position: relative;
+    top: 5px;
+    right: -6px;
+}
+.fa-facebook:before {
+    content: "";
+    position: relative;
+    top: 5px;
+    right: -6px;
+}
+.fa-twitter:before {
+    content: "";
+    position: relative;
+    top: 5px;
+    right: -6px;
+}
+
 .footer p {
     color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.social-icon {
+    margin-top: 10px;
 }
