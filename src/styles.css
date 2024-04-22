@@ -102,7 +102,18 @@ h1{
     font-size: 16px;
     line-height: 24px;
     text-decoration: underline;
+    position: relative;
+    margin-left: 30px;
 }
+.content a::before {
+    content: "";
+    border: 10px solid;
+    border-color: transparent transparent transparent #02897A;
+    position: absolute;
+    top: 1px;
+    left: -18px;
+}
+
 /* page-signup */
 .page-signup{
     width: 1120px;
@@ -352,6 +363,7 @@ h1{
     color: #EDFFFC;
     font-size: 30px;
     margin-right: 10px;
+    color: #EDFFFC;
 }
 .footer p {
     color: white;
