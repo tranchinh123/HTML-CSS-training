@@ -232,6 +232,54 @@ h1{
     line-height: 26px;
     
 }
+/* price table */
+.price-table {
+    width: 1120px;
+    height: 590px;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+}
+.price-table h1 {
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 700;
+}
+.price-table p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.list-prices {
+    display: flex;
+    float: left;
+    color: black;
+    justify-content: space-between;
+    width: 100%;
+}
+.table{
+    width: 326px;
+    height: 456px;
+    border-radius: 8px;
+    background-color:white ;
+}
+.price-month {
+    width: 154px;
+    height: 100px;
+    margin: auto;
+}
+.price-des {
+    margin: auto;
+    width: 150px;
+    height: 98px;
+}
+.price-des p {
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
 
 
 
