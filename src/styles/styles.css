@@ -69,6 +69,7 @@ a{
 .image {
     width:600px ;
     height: 555px;
+    margin-left: 38px;
 }
 .btn-getstarted {
     background-color: #02897A;
