@@ -205,6 +205,14 @@ h1{
     width: 492px;
     height: 435px;
 }
+.content-text h1 {
+    width: 224px;
+    height: 48px;
+}
+.content-text h2 {
+    width: 189px;
+    height: 24px;
+}
 .content-page .text1 {
     width: 486px;
     height: 78px;
