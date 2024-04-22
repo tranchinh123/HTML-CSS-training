@@ -83,6 +83,7 @@ a{
     font-weight: 700;
     line-height: 24px;
     margin-right: 30px;
+    cursor: pointer;
 }
 p{
     line-height: 28px;
@@ -176,6 +177,7 @@ h1{
     font-weight: 700;
     line-height: 24px;
     font-size: 20px;
+    cursor: pointer;
 }
 .page-signup .singup-now{
     display: flex;
@@ -297,7 +299,9 @@ h1{
     line-height: 22px;
     font-weight: 600;
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+   
 }
 .btn-ordernow2 {
     width: 139px;
@@ -308,7 +312,8 @@ h1{
     line-height: 22px;
     font-weight: 600;
     color:#02897A;
-    margin-top: 20px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 .total-price h1 {
     font-weight: 700;
@@ -331,3 +336,23 @@ h1{
     line-height: 19px;
 }
 
+/* footer */
+.footer {
+    width: 1116px;
+    height: 97px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-social {
+    width: 40px;
+    height: 41px;
+    border-radius: 50%;
+    color: #EDFFFC;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.footer p {
+    color: white;
+}
