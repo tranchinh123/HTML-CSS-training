@@ -1,0 +1,126 @@
+.price-table {
+    width: 1120px;
+    height: 590px;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+    color: white;
+  }
+  .price-heading1 {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 32px;
+  }
+  .price-table p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .list-prices {
+    display: flex;
+    float: left;
+    color: black;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .table {
+    width: 326px;
+    height: 456px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  .price-month {
+    width: 154px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .price-des {
+    margin: auto;
+    width: 150px;
+    height: 98px;
+    font-family: inter;
+  }
+  .price-des p {
+    font-size: 15px;
+    line-height: 0px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+  }
+  .price-standard {
+    background-color: #02897a;
+    color: white;
+  }
+  .btn-ordernow {
+    width: 139px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #02897a;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: Montserrat;
+  }
+  .btn-ordernow2 {
+    width: 139px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #02897a;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: Montserrat;
+  }
+  .total-price h1 {
+    font-weight: 700;
+    font-size: 76px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-right: 18px;
+    color: #02897a;
+  }
+  .price-month {
+    margin-bottom: 20px;
+  }
+  .per-month h2 {
+    margin-left: -83px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #02897a;
+  }
+  .per-month h3 {
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    line-height: 19px;
+    color: #afafaf;
+    margin-left: -12px;
+  }
+  .total-price-standard h1 {
+    font-weight: 700;
+    font-size: 76px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .per-month-standard h2 {
+    margin-left: -83px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+  }
+  .per-month-standard h3 {
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    line-height: 19px;
+    color: #afafaf;
+    margin-left: -12px;
+  }

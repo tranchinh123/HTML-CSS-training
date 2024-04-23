@@ -1,0 +1,64 @@
+.introduction {
+    width: 1105px;
+    height: 555.72px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .content {
+    color: white;
+    margin-right: 12px;
+  }
+  .image {
+    width: 600px;
+    height: 555px;
+    margin-left: 38px;
+  }
+  .btn-getstarted {
+    background-color: #02897a;
+    border: none;
+    width: 175px;
+    height: 53px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .text-content {
+    width: 458px;
+    height: 95px;
+  }
+  p {
+    line-height: 28px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  
+  .content a {
+    color: #02897a;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+    position: relative;
+    margin-left: 30px;
+  }
+  .content a::before {
+    content: "";
+    border: 10px solid;
+    border-color: transparent transparent transparent #02897a;
+    position: absolute;
+    top: 1px;
+    left: -18px;
+  }
