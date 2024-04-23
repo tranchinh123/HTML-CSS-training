@@ -340,7 +340,7 @@ h1{
     font-size: 76px;
     letter-spacing: 0.2px;
     text-align: center;
-    margin-right: 10px;
+    margin-right: 18px;
     color: #02897A;
 }
 .price-month {
@@ -357,6 +357,7 @@ h1{
     letter-spacing: 0.1px;
     line-height: 19px;
     color: #AFAFAF;
+    margin-left:-12px
 }
 .total-price-standard h1 {
     font-weight: 700;
@@ -376,6 +377,7 @@ h1{
     letter-spacing: 0.1px;
     line-height: 19px;
     color: #AFAFAF;
+    margin-left: -12px;
 }
 /* footer */
 .footer {
