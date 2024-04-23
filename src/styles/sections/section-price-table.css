@@ -65,7 +65,7 @@
     color: white;
     margin-top: 10px;
     cursor: pointer;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     border: none;
   }
   .btn-ordernow2 {
@@ -79,7 +79,7 @@
     color: #02897a;
     margin-top: 10px;
     cursor: pointer;
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     border:none
   }
   .total-price h1 {
