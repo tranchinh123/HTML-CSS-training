@@ -1,5 +1,6 @@
 @import url(/src/styles/base/reset.css);
 @import url(/src/styles/base/tyography.css);
+@import url(/src/styles/base/font.css);
 @import url(/src/styles/sections/section-header.css);
 @import url(/src/styles/sections/section-introduction.css);
 @import url(/src/styles/sections/section-page-signup.css);
