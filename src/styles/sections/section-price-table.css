@@ -70,19 +70,9 @@
     font-family: "Montserrat", sans-serif;
     border: none;
   }
-  .btn-ordernow2 {
-    width: 139px;
-    height: 44px;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 600;
-    color: #02897a;
-    margin-top: 10px;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    border:none
+  .btn-standard{
+    color: #02897a !important;
+    background-color: white !important;
   }
   .price {
     font-weight: 700;
@@ -117,12 +107,6 @@
     letter-spacing: 0.2px;
     text-align: center;
     margin-right: 10px;
-  }
-  .per-month-standard h2 {
-    margin-left: -83px;
-    font-size: 24px;
-    font-weight: 700;
-    color: white;
   }
   .per-month-standard h3 {
     font-weight: 300;
