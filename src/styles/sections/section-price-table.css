@@ -70,6 +70,9 @@
     font-family: "Montserrat", sans-serif;
     border: none;
   }
+  .btn-ordernow:hover{
+    opacity: 0.8;
+  }
   .btn-standard{
     color: #02897a !important;
     background-color: white !important;

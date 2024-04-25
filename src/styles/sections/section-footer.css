@@ -16,4 +16,7 @@
     width: 40.26px;
     height: 41.17px;
   }
+  .icon:hover{
+    opacity: 0.8;
+  }
   

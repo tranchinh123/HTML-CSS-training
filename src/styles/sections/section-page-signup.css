@@ -52,6 +52,7 @@
   text-align: center;
   justify-content: center;
 }
+
 .page-signup .btn-signupnow {
   text-align: center;
   width: 244px;
@@ -65,6 +66,9 @@
   font-size: 16px;
   cursor: pointer;
   border: none;
+}
+.page-signup .btn-signupnow:hover{
+  opacity: 0.8;
 }
 .page-signup .singup-now {
   display: flex;
