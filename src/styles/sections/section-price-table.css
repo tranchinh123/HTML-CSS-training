@@ -4,7 +4,7 @@
     margin: auto;
     text-align: center;
     margin-top: 45px;
-    color: white;
+    color:var(--text-white);
   }
   .price-heading1{
     font-size: 24px;
@@ -53,18 +53,18 @@
     font-weight: 500;
   }
   .price-standard {
-    background-color: #02897a;
-    color: white;
+    background-color:var(--primary-color);
+    color: var(--text-white);
   }
   .btn-ordernow {
     width: 139px;
     height: 44px;
     border-radius: 8px;
-    background-color: #02897a;
+    background-color: var(--primary-color);
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
-    color: white;
+    color: var(--text-white);
     margin-top: 10px;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
@@ -74,7 +74,7 @@
     opacity: 0.8;
   }
   .btn-standard{
-    color: #02897a !important;
+    color: var(--primary-color) !important;
     background-color: white !important;
   }
   .price {
@@ -83,10 +83,10 @@
     letter-spacing: 0.2px;
     text-align: center;
     margin-right: 18px;
-    color: #02897a;
+    color: var(--primary-color);
   }
   .color-white{
-    color: white !important;
+    color: var(--text-white) !important;
   }
   .price-month {
     margin-bottom: 20px;
@@ -95,13 +95,13 @@
     margin-left: -83px;
     font-size: 24px;
     font-weight: 700;
-    color: #02897a;
+    color: var(--primary-color);
   }
   .per-month h3 {
     font-weight: 300;
     letter-spacing: 0.1px;
     line-height: 19px;
-    color: #afafaf;
+    color: var(--secondary-color);
     margin-left: -12px;
   }
   .total-price-standard h1 {
@@ -115,6 +115,6 @@
     font-weight: 300;
     letter-spacing: 0.1px;
     line-height: 19px;
-    color: #afafaf;
+    color: var(--secondary-color);
     margin-left: -12px;
   }

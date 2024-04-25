@@ -9,7 +9,7 @@
     position: relative;
   }
   .nav-text {
-    color: white;
+    color: var(--text-white);
     font-size: 30px;
     padding-left: 10px;
     position: relative;
@@ -20,7 +20,7 @@
         font-size: 16px;
         font-weight: 600;
         line-height: 28px;
-        color: white;
+        color: var(--text-white);
   }
   .nav-links {
     list-style: none;
@@ -29,7 +29,7 @@
   }
   .link a {
     display: inline-block;
-    color: white;
+    color: var(--text-white);
     margin-left: 40px;
     font-weight: 500 ;
   }
@@ -42,7 +42,7 @@
     height: 43px;
     border-radius: 5px;
     background-color: #1f2e35;
-    color: white;
+    color: var(--text-white);
     cursor: pointer;
     border: 1px solid #bcd0e5;
     font-weight: 600;
@@ -55,6 +55,6 @@
     opacity: 0.8;
   }
   .btn-signup {
-    background-color: #02897a;
+    background-color: var(--primary-color);
     border: none;
   }

@@ -3,7 +3,7 @@
     height: 473px;
     display: flex;
     margin: auto;
-    color: white;
+    color: var(--text-white);
   }
   .content-text {
     width: 492px;
