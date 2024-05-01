@@ -2,9 +2,9 @@
 @import url(/src/styles/base/reset.css);
 @import url(/src/styles/base/tyography.css);
 @import url(/src/styles/base/variables.css);
-@import url(/src/styles/sections/section-header.css);
-@import url(/src/styles/sections/section-introduction.css);
-@import url(/src/styles/sections/section-page-signup.css);
-@import url(/src/styles/sections/section-content-page.css);
-@import url(/src/styles/sections/section-price-table.css);
-@import url(/src/styles/sections/section-footer.css);
+@import url(/src/styles/sections/header.css);
+@import url(/src/styles/sections/introduction.css);
+@import url(/src/styles/sections/page-signup.css);
+@import url(/src/styles/sections/content-page.css);
+@import url(/src/styles/sections/price-table.css);
+@import url(/src/styles/sections/footer.css);
