@@ -7,14 +7,14 @@
   color: var(--text-white);
 }
 .price-heading1 {
-  font-size: 24px;
+  font-size: var(--size-24);
   line-height: 40px;
   font-weight: 700;
   margin-top: 32px;
   display: block;
 }
 .price-table p {
-  font-size: 16px;
+  font-size: var(--size-16);
   line-height: 24px;
 }
 .list-prices {
@@ -46,7 +46,7 @@
   font-weight: 500;
 }
 .price-des p {
-  font-size: 15px;
+  font-size: var(--size-15);
   line-height: 0px;
   letter-spacing: 0.2px;
   font-weight: 500;
@@ -60,7 +60,7 @@
   height: 44px;
   border-radius: 8px;
   background-color: var(--primary-color);
-  font-size: 18px;
+  font-size: var(--size-18);
   line-height: 22px;
   font-weight: 600;
   color: var(--text-white);
@@ -78,7 +78,7 @@
 }
 .price {
   font-weight: 700;
-  font-size: 76px;
+  font-size: var(--size-76);
   letter-spacing: 0.2px;
   text-align: center;
   margin-right: 18px;
@@ -92,7 +92,7 @@
 }
 .currency-unit {
   margin-left: -83px;
-  font-size: 24px;
+  font-size: var(--size-24);
   font-weight: 700;
   color: var(--primary-color);
 }
@@ -103,9 +103,9 @@
   color: var(--secondary-color);
   margin-left: -12px;
 }
-.total-price-standard h1 {
+.price-table .price-title {
   font-weight: 700;
-  font-size: 76px;
+  font-size: var(--size-34);
   letter-spacing: 0.2px;
   text-align: center;
   margin-right: 10px;

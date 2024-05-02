@@ -6,7 +6,7 @@
 }
 .page-signup h1 {
   font-weight: 700;
-  size: 32px;
+  font-size: var(--size-32);
   line-height: 48px;
   color: var(--text-white);
   text-align: center;
@@ -30,7 +30,7 @@
 }
 .list-card .card h3 {
   font-weight: 600;
-  font-size: 22px;
+  font-size: var(--size-22);
   line-height: 33px;
 }
 .list-card .card p {
