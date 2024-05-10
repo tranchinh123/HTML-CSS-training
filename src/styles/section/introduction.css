@@ -1,0 +1,23 @@
+@media (max-width: 720px){
+    .introduction__content--imagine{
+        width: 338px;
+        max-width: 100%;
+        margin: auto;
+    }
+    h1 {
+        font-weight: 700;
+        line-height:60px;
+        font-size: 3.6rem;
+        color:var(--text-white);
+        text-align: center;
+        margin-top: 15px;
+    }
+    .introduction__content--text-content{
+        color: var(--text-white);
+        font-size: var(--size-18);
+        line-height: 28px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+    

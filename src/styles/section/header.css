@@ -16,12 +16,15 @@
         font-size:var(--size-30) ;
         position: relative;
         font-weight: 700;
-        top:-0.7rem;
+        top:-7px;
         padding-left: 10px;
     }
     .nav-icon{
         width:28px;
         height: 31px;
         margin-right: -35px;
+    }
+    .nav-links{
+        display: none;
     }
 }
