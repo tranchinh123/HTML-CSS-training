@@ -1,10 +1,16 @@
 @media (max-width: 720px){
+  .introduction{
+    width: 369px;
+    height: 670px;
+    margin: auto;
+    max-width: 100%;
+  }
     .introduction__imagine{
         width: 338px;
         max-width: 100%;
         margin: auto;
     }
-    h1 {
+    .heading-introduction {
         font-weight: 700;
         line-height:60px;
         font-size: 3.6rem;
