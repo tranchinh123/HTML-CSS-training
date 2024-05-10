@@ -1,0 +1,57 @@
+@media (max-width: 720px){
+    .page-signup{
+        margin: auto;
+        height: 1106px;
+        width: 411px;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+   .heading-signup {
+        font-weight: 700;
+        font-size: var(--size-32);
+        line-height: 48px;
+        text-align: center;
+        color: white;
+    }
+    .list-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+       margin-top: 30px;
+       color: var(--text-white);
+    }
+    .card {
+        width: 240px;
+        height: 172px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .icon-signup {
+        width: 51.14px;
+        height: 50px;
+    }
+    h3 {
+        font-weight: 600;
+        font-size: var(--size-22);
+        line-height: 33px;
+      }
+    .card p {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 13px;
+    }
+    .singup-now{
+        text-align: center;
+        margin-top: 30px;
+    }  
+    .btn-signupnow {
+        width: 175px;
+        height: 53px;
+        border-radius: 10px;
+        font-size: 1.6rem;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
