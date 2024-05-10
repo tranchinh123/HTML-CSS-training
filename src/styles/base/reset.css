@@ -33,10 +33,6 @@ dd {
 }
 
 /* Set default font size and family */
-body {
-  font-size: 16px;
-  font-family: Arial, sans-serif;
-}
 
 /* Set default font weight and style for headings */
 h1,

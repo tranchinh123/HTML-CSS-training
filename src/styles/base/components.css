@@ -1,0 +1,6 @@
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 3px;
+  color: var(--text-white);
+}
