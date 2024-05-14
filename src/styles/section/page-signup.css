@@ -55,3 +55,51 @@
     line-height: 24px;
   }
 }
+/* Tablet */
+@media (min-width: 720px) and (max-width:1023px){
+  .heading-signup {
+    font-weight: 700;
+    font-size: var(--size-32);
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    width: 537px;
+    height: 96px;
+    margin: auto;
+  }
+  .list-cards {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+  
+  }
+  .card {
+    width: 50%;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: var(--size-22);
+    line-height: 33px;
+    color: var(--text-white);
+  }
+  .card p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 13px;
+  }
+  .singup-now {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .btn-signupnow {
+    width: 175px;
+    height: 53px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
