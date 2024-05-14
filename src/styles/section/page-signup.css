@@ -70,8 +70,6 @@
   .list-cards {
     display: flex;
     flex-wrap: wrap-reverse;
-    
-  
   }
   .card {
     width: 50%;
