@@ -96,6 +96,7 @@
   .page-signup {
     width: 1120px;
     height: 543px;
+    max-width: 100%;
     margin: auto;
     margin-top: 50px;
   }
@@ -106,6 +107,7 @@
     }
     .list-cards{
       width: 1120px;
+      max-width: 100%;
       height: 204px;
       display: flex;
       margin: auto;
