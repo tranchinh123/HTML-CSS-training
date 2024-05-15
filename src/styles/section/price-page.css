@@ -37,13 +37,7 @@
     align-items: center;
     color: black;
   }
-  .table {
-    width: 322px;
-    height: 456px;
-    border-radius: 8px;
-    background-color: white;
-    margin-top: 30px;
-  }
+ 
   .price-month {
     width: 154px;
     height: 100px;

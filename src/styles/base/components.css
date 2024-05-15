@@ -4,3 +4,10 @@
   border-radius: 3px;
   color: var(--text-white);
 }
+.table {
+  width: 322px;
+  height: 456px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 30px;
+}
