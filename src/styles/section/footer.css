@@ -31,3 +31,26 @@
     margin-left: -40px;
   }
 }
+/* PC */
+@media (min-width:1024px){
+  footer {
+    width: 1116px;
+    height: 97px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer p {
+    color: var(--text-white);
+    font-size: 16px;
+  }
+  .icon {
+    margin-right: 10px;
+    width: 40.26px;
+    height: 41.17px;
+  }
+  .icon:hover {
+    opacity: 0.8;
+  }
+}
