@@ -64,3 +64,21 @@
     height: 482px;
   }
 }
+/* PC */
+@media (min-width:1024px) {
+  .content-page{
+    width: 1120px;
+    height: 474px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .content-text{
+    width: 493px;
+    height: 435px;
+  }
+  .img-content{
+    width: 547px;
+    height: 473px;
+    max-width: 100%;
+  }
+}
