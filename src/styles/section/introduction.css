@@ -1,8 +1,7 @@
 /* Mobile */
   .introduction {
-    width: 369px;
-    height: 670px;
-    margin: auto;
+    width: auto;
+    height: auto;
     max-width: 100%;
   }
   .introduction__imagine {
@@ -19,8 +18,8 @@
     margin-top: 15px;
   }
   .introduction__content {
-    width: 326px;
-    height: 95px;
+    width: auto;
+    max-width: 369px;
     text-align: center;
     margin: auto;
   }
@@ -73,9 +72,9 @@
     width: 100%;
   }
   .introduction__content {
-   width: 600px;
-   height: 45px;
-   margin: auto;
+    width: auto;
+    max-width: 600px;
+    margin: auto;
   }
   .btn-getstarted {
     margin-left:130px;
@@ -87,21 +86,20 @@
 /* PC */
 @media (min-width:1024px){
   .introduction{
-    width: 1105px;
-    height: 556px;
-    max-width: 100%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     margin: auto;
+    justify-content: center;
   }
   .btn-getstarted{
     margin-left: 0;
   }
   .introduction__content{
-    width: 518px;
-    height: 331px;
-    margin:0;
+        height: auto;
+        margin: 0;
+        max-width: 518px;
+        width: auto;
   }
   .heading-introduction,
   .introduction__content--text-content p{
