@@ -61,15 +61,14 @@
     width: 710px;
   }
   .heading-signup {
-    width: 537px;
-    height: 96px;
-    margin: auto;
+    width: auto;
+        padding: 0px 9rem;
+        height: auto;
+        margin: auto;
   }
   .list-cards {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 39% 37%;
+   justify-content: center;
   }
   .card {
     text-align: left;
@@ -106,13 +105,8 @@
         margin: auto;
     }
     .list-cards{
-      width: 1120px;
-      max-width: 100%;
-      height: 204px;
-      display: flex;
-      margin: auto;
       text-align: left;
-      margin-top: 30px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .card p {
       text-align: left;
