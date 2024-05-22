@@ -35,11 +35,15 @@
 @media (min-width:1024px){
   footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1115px;
   }
   footer p {
     color: var(--text-white);
     font-size: 16px;
+  }
+  .logos .nav-logo {
+    margin-left: 0;
   }
   .icon {
     margin-right: 10px;

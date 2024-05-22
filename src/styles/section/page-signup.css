@@ -56,16 +56,11 @@
 /* Tablet */
 @media (min-width: 721px) and (max-width:1023px){
   .page-signup {
-    height: auto;
-    width: auto;
     max-width: 710px;
     margin-bottom: 100px;
   }
   .heading-signup {
-        width: auto;
-        padding: 0px 9rem;
-        height: auto;
-        margin: auto;
+    padding: 0px 9rem;
   }
   .list-cards {
     grid-template-columns: 39% 37%;
@@ -112,16 +107,10 @@
       text-align: left;
     }
     .page-signup .btn-signupnow {
-      text-align: center;
       width: 244px;
-      height: 53px;
-      color: var(--text-white);
       background-color: var(--primary-color);
       border-radius: 10px;
       margin-top: 20px;
-      font-weight: 700;
-      line-height: 24px;
-      font-size: 1.6rem;
       cursor: pointer;
       border: none;
       margin-left: -37px;

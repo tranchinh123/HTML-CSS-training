@@ -74,7 +74,7 @@
   .introduction__content {
     width: auto;
     max-width: 600px;
-    margin: auto;
+    margin-top: 40px;
   }
   .btn-getstarted {
     margin-left:130px;
@@ -89,17 +89,15 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: auto;
     justify-content: center;
   }
   .btn-getstarted{
     margin-left: 0;
   }
   .introduction__content{
-        height: auto;
-        margin: 0;
-        max-width: 518px;
-        width: auto;
+    margin: 0;
+    max-width: 518px;
+    width: auto;
   }
   .heading-introduction,
   .introduction__content--text-content p{

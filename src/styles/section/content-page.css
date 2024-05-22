@@ -43,15 +43,13 @@
 @media (min-width: 720px) and (max-width:1023px)
 {
   .content-page {
-    display: flex;
-    flex-direction: column;
     margin: auto;
-    max-width: 349px;
+    max-width: 720px;
     margin-top: -95px;
   }
   .content-text {
-    height: auto;
-    max-width: 334px;
+    max-width: 536px;
+    margin-left: 80px;
   }
   .img-content{
     display: flex;
