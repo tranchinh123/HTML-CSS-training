@@ -63,16 +63,13 @@
 /* PC */
 @media (min-width:1024px) {
   .content-page{
-    width: auto;
     max-width: 100%;
-    height: auto;
     flex-direction: row-reverse;
     justify-content: center;
+    padding: 0 2rem;
   }
   .content-text{
-    width: auto;
     max-width: 493px;
-    height: auto
   }
   .img-content{
     width: auto;

@@ -137,6 +137,7 @@
 @media (min-width:1024px){
   .price-table{
     max-width: 1120px;
+    padding: 0 2rem;
   }
   .list-prices{
     flex-direction: row;
