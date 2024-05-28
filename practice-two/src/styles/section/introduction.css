@@ -1,0 +1,130 @@
+/* Mobile */
+.introduction {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.introduction__imagine {
+  width: 338px;
+  max-width: 100%;
+  margin: auto;
+}
+.heading-introduction {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 3.6rem;
+  color: var(--text-white);
+  text-align: center;
+  margin-top: 15px;
+}
+.introduction__content {
+  width: auto;
+  max-width: 369px;
+  text-align: center;
+  margin: auto;
+}
+p {
+  margin-top: 25px;
+  color: var(--text-white);
+  font-size: var(--size-18);
+  line-height: 28px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.link-watchvideo {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 24px;
+  text-decoration: underline;
+  position: relative;
+  margin-left: 30px;
+  font-weight: 600;
+  top: 15px;
+}
+.link-watchvideo::before {
+  content: "";
+  border: 10px solid;
+  border-color: transparent transparent transparent var(--primary-color);
+  position: absolute;
+  top: 1px;
+  left: -18px;
+}
+.btn-getstarted {
+  float: left;
+  width: 142px;
+  height: 53px;
+  font-size: 1.6rem;
+  line-height: 24px;
+  font-weight: 700;
+}
+/* Tablet */
+@media (min-width: 720px) and (max-width: 1023px) {
+  .introduction {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 110px;
+  }
+  .introduction__imagine {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .introduction__content {
+    width: auto;
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  .btn-getstarted {
+    margin-left: 130px;
+  }
+  .link-watchvideo {
+    margin-right: 140px;
+  }
+}
+/* PC */
+@media (min-width: 1024px) {
+  .introduction {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+  .btn-getstarted {
+    margin-left: 0;
+  }
+  .introduction__content {
+    margin: 0;
+    max-width: 518px;
+    width: auto;
+  }
+  .heading-introduction,
+  .introduction__content--text-content p {
+    text-align: left;
+  }
+  .introduction__imagine {
+    width: 600px;
+    height: 555px;
+    margin-left: 38px;
+    margin-right: 0;
+  }
+  .btn-getstarted {
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .btn-getstarted:hover {
+    opacity: 0.8;
+  }
+  .link-watchvideo {
+    position: relative;
+    top: 47px;
+    left: -57px;
+  }
+
+  .link-watchvideo:hover {
+    opacity: 0.8;
+  }
+}

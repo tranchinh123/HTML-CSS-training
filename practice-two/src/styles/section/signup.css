@@ -1,0 +1,126 @@
+/* Mobile */
+.page-signup {
+  margin: auto;
+  width: auto;
+  max-width: 411px;
+  margin-top: 120px;
+}
+.heading-signup {
+  font-weight: 700;
+  font-size: var(--size-32);
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+.list-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-top: 30px;
+  color: var(--text-white);
+}
+.card {
+  width: 240px;
+  height: 172px;
+  margin: auto;
+  margin-top: 30px;
+}
+.icon-signup {
+  width: 51.14px;
+  height: 50px;
+}
+h3 {
+  font-weight: 600;
+  font-size: var(--size-22);
+  line-height: 33px;
+}
+.card p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 13px;
+}
+.singup-now {
+  text-align: center;
+  margin-top: 30px;
+}
+.btn-signupnow {
+  width: 175px;
+  height: 53px;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 24px;
+}
+/* Tablet */
+@media (min-width: 720px) and (max-width: 1023px) {
+  .page-signup {
+    max-width: 710px;
+    margin-bottom: 100px;
+  }
+  .heading-signup {
+    padding: 0px 9rem;
+  }
+  .list-cards {
+    grid-template-columns: 39% 37%;
+    justify-content: center;
+  }
+  .card {
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 24px;
+    margin-right: 30px;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: var(--size-22);
+    line-height: 33px;
+    color: var(--text-white);
+  }
+  .card p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 13px;
+  }
+}
+/* PC */
+@media (min-width: 1024px) {
+  .page-signup {
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 70px;
+  }
+  .heading-signup {
+    width: auto;
+    margin: auto;
+    max-width: 505px;
+  }
+  .list-cards {
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .card p {
+    text-align: left;
+  }
+  .page-signup .btn-signupnow {
+    width: 244px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    margin-left: -37px;
+  }
+  .page-signup .btn-signupnow:hover {
+    opacity: 0.8;
+  }
+  .page-signup .singup-now {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

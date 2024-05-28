@@ -1,0 +1,11 @@
+@import url(/practice-two/src/styles/base/reset.css);
+@import url(/practice-two/src/styles/base/typography.css);
+@import url(/practice-two/src/styles/base/variables.css);
+@import url(/practice-two/src/styles/base/font.css);
+@import url(/practice-two/src/styles/base/components.css);
+@import url(/practice-two/src/styles/section/header.css);
+@import url(/practice-two/src/styles/section/introduction.css);
+@import url(/practice-two/src/styles/section/signup.css);
+@import url(/practice-two/src/styles/section/content.css);
+@import url(/practice-two/src/styles/section/price.css);
+@import url(/practice-two/src/styles/section/footer.css);
