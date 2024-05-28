@@ -4,7 +4,7 @@
   height: auto;
   max-width: 100%;
 }
-.introduction__imagine {
+.introduction-imagine {
   width: 338px;
   max-width: 100%;
   margin: auto;
@@ -12,21 +12,20 @@
 .heading-introduction {
   font-weight: 700;
   line-height: 60px;
-  font-size: 3.6rem;
+  font-size: 2.25rem;
   color: var(--text-white);
   text-align: center;
   margin-top: 15px;
 }
-.introduction__content {
+.introduction-content {
   width: auto;
-  max-width: 369px;
+  max-width: 23.063rem;
   text-align: center;
   margin: auto;
 }
 p {
   margin-top: 25px;
   color: var(--text-white);
-  font-size: var(--size-18);
   line-height: 28px;
   text-align: center;
   font-weight: 400;
@@ -34,7 +33,6 @@ p {
 }
 .link-watchvideo {
   color: var(--primary-color);
-  font-size: 1.6rem;
   line-height: 24px;
   text-decoration: underline;
   position: relative;
@@ -54,9 +52,9 @@ p {
   float: left;
   width: 142px;
   height: 53px;
-  font-size: 1.6rem;
   line-height: 24px;
   font-weight: 700;
+  font-size: 1rem;
 }
 /* Tablet */
 @media (min-width: 720px) and (max-width: 1023px) {
@@ -65,12 +63,12 @@ p {
     height: 800px;
     margin-bottom: 110px;
   }
-  .introduction__imagine {
+  .introduction-imagine {
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  .introduction__content {
+  .introduction-content {
     width: auto;
     max-width: 600px;
     margin-top: 40px;
@@ -94,16 +92,16 @@ p {
   .btn-getstarted {
     margin-left: 0;
   }
-  .introduction__content {
+  .introduction-content {
     margin: 0;
     max-width: 518px;
     width: auto;
   }
   .heading-introduction,
-  .introduction__content--text-content p {
+  .introduction-text p {
     text-align: left;
   }
-  .introduction__imagine {
+  .introduction-imagine {
     width: 600px;
     height: 555px;
     margin-left: 38px;
@@ -126,5 +124,8 @@ p {
 
   .link-watchvideo:hover {
     opacity: 0.8;
+  }
+  .introduction-text{
+    max-width: 28.625rem;
   }
 }

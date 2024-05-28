@@ -2,12 +2,12 @@
 .page-signup {
   margin: auto;
   width: auto;
-  max-width: 411px;
+  max-width: 25.688rem;
   margin-top: 120px;
 }
 .heading-signup {
   font-weight: 700;
-  font-size: var(--size-32);
+  font-size: 2rem;
   line-height: 48px;
   text-align: center;
   color: white;
@@ -31,12 +31,11 @@
 }
 h3 {
   font-weight: 600;
-  font-size: var(--size-22);
+  font-size: 1.375rem;
   line-height: 33px;
 }
 .card p {
   font-weight: 400;
-  font-size: 1.6rem;
   line-height: 26px;
   text-align: center;
   margin-top: 13px;
@@ -49,7 +48,6 @@ h3 {
   width: 175px;
   height: 53px;
   border-radius: 10px;
-  font-size: 1.6rem;
   font-weight: 700;
   line-height: 24px;
 }
@@ -74,13 +72,12 @@ h3 {
   }
   h3 {
     font-weight: 600;
-    font-size: var(--size-22);
+    font-size: 1.375rem;
     line-height: 33px;
     color: var(--text-white);
   }
   .card p {
     font-weight: 400;
-    font-size: 1.6rem;
     line-height: 26px;
     text-align: left;
     margin-top: 13px;

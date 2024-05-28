@@ -5,12 +5,11 @@
   color: var(--text-white);
 }
 .heading-price {
-  font-size: var(--size-32);
+  font-size: 2rem;
   line-height: 51px;
   font-weight: 700;
 }
 .price-table p {
-  font-size: 1.6rem;
   line-height: 24px;
   font-weight: 400;
   margin-top: 5px;
@@ -18,12 +17,11 @@
 .price-heading1 {
   display: block;
   font-weight: 700;
-  font-size: var(--size-24);
+  font-size: 1.5rem;
   line-height: 40px;
   margin-top: 30px;
 }
-.price-text1 {
-  font-size: 1.6rem;
+.price-text {
   font-weight: 400;
   line-height: 40px;
   color: black;
@@ -51,7 +49,6 @@
   font-weight: 500;
 }
 .price-des p {
-  font-size: 1.6rem;
   line-height: 22px;
   letter-spacing: 0.2px;
   font-weight: 400;
@@ -69,7 +66,7 @@
   height: 44px;
   border-radius: 8px;
   background-color: var(--primary-color);
-  font-size: var(--size-18);
+  font-size: 1.125rem;
   line-height: 22px;
   font-weight: 600;
   color: var(--text-white);
@@ -85,7 +82,7 @@
 }
 .price {
   font-weight: 700;
-  font-size: var(--size-76);
+  font-size: 4.75rem;
   letter-spacing: 0.2px;
   text-align: center;
   margin-right: 18px;
@@ -100,7 +97,7 @@
 }
 .currency-unit {
   margin-left: -110px;
-  font-size: var(--size-24);
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--primary-color);
 }
@@ -113,7 +110,7 @@
 }
 .price-table .price-title {
   font-weight: 700;
-  font-size: var(--size-34);
+  font-size: 2.125rem;
   letter-spacing: 0.2px;
   text-align: center;
   margin-right: 10px;

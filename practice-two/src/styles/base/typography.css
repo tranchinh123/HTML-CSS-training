@@ -1,7 +1,4 @@
 html {
-  /* 10px */
-  font-size: 62.5%;
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
-  box-sizing: border-box;
 }
