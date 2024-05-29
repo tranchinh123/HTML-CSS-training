@@ -2,7 +2,7 @@
   "name": "html-css-training",
   "description": "",
   "version": "1.0.0",
-  "source": "practice-two/src/index.html",
+  "source": "./src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
