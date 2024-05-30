@@ -9,12 +9,7 @@
   line-height: 51px;
   font-weight: 700;
 }
-.price-table p {
-  line-height: 24px;
-  font-weight: 400;
-  margin-top: 5px;
-}
-.price-heading1 {
+.price-heading {
   display: block;
   font-weight: 700;
   font-size: 1.5rem;
@@ -24,46 +19,41 @@
 .price-text {
   font-weight: 400;
   line-height: 40px;
-  color: black;
+  color: var(--text-black);
 }
 .list-prices {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
+  color: var(--text-black);
 }
-
 .price-month {
-  width: 154px;
-  height: 100px;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .price-des {
   margin: auto;
-  width: 134px;
-  height: 98px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
-.price-des p {
-  line-height: 22px;
+.text-description {
+  line-height: 30px;
   letter-spacing: 0.2px;
   font-weight: 400;
-  color: black;
+  color: var(--text-black);
+  margin-top: 10px;
 }
 .price-standard {
   background-color: var(--primary-color);
 }
-.price-standard p,
-.price-standard .price-heading1 {
+.price-text-standard,
+.text-description-standard,
+.price-standard .price-heading {
   color: var(--text-white) !important;
 }
 .btn-ordernow {
-  width: 139px;
-  height: 44px;
   border-radius: 8px;
   background-color: var(--primary-color);
   font-size: 1.125rem;
@@ -72,8 +62,9 @@
   color: var(--text-white);
   margin-top: 50px;
   cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border: none;
+  padding: 0.7rem 1.2rem;
 }
 
 .btn-standard {
@@ -101,7 +92,7 @@
   font-weight: 700;
   color: var(--primary-color);
 }
-.per-month h3 {
+.monthly-rate {
   font-weight: 300;
   letter-spacing: 0.1px;
   line-height: 19px;
@@ -115,13 +106,6 @@
   text-align: center;
   margin-right: 10px;
 }
-.per-month-standard h3 {
-  font-weight: 300;
-  letter-spacing: 0.1px;
-  line-height: 19px;
-  color: var(--secondary-color);
-  margin-left: -12px;
-}
 
 /* Tablet */
 @media (min-width: 720px) and (max-width: 1023px) {
@@ -133,7 +117,7 @@
 @media (min-width: 1024px) {
   .price-table {
     max-width: 1120px;
-    padding: 0 2rem;
+    margin-top: 50px;
   }
   .list-prices {
     flex-direction: row;
