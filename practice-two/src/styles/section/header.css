@@ -43,8 +43,9 @@ nav {
 @media (min-width: 1024px) {
   nav {
     max-width: 100%;
-    padding: 2rem 4rem;
     justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .link-activite {
     font-weight: 600;
