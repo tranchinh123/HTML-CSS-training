@@ -52,11 +52,11 @@
 /* Tablet */
 @media (min-width: 720px) and (max-width: 1023px) {
   .page-signup {
-    max-width: 710px;
+    max-width: 44.375rem;
     margin-bottom: 100px;
   }
   .heading-signup {
-    padding: 0px 9rem;
+    padding: 0rem 9rem;
   }
   .list-cards {
     grid-template-columns: 39% 37%;
@@ -79,7 +79,7 @@
 /* PC */
 @media (min-width: 1024px) {
   .page-signup {
-    max-width: 1120px;
+    max-width: 70rem;
     margin: auto;
     margin-bottom: 60px;
     margin-top: 70px;
@@ -87,7 +87,7 @@
   .heading-signup {
     width: auto;
     margin: auto;
-    max-width: 505px;
+    max-width: 31.563rem;
   }
   .list-cards {
     text-align: left;

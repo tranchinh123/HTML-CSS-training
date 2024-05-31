@@ -116,7 +116,7 @@
 /* PC */
 @media (min-width: 1024px) {
   .price-table {
-    max-width: 1120px;
+    max-width: 70rem;
     margin-top: 50px;
   }
   .list-prices {
