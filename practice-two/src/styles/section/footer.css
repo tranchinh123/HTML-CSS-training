@@ -8,7 +8,7 @@ footer {
 }
 
 .footer-text {
-	color: var(--text-white);
+	color: var(--text-light);
 	line-height: 30px;
 }
 

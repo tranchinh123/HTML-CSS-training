@@ -15,7 +15,7 @@
 	font-weight: 700;
 	line-height: 60px;
 	font-size: 2.25rem;
-	color: var(--text-white);
+	color: var(--text-light);
 	text-align: center;
 	margin-top: 15px;
 }
@@ -29,11 +29,11 @@
 
 .introduction-text {
 	margin-top: 25px;
-	color: var(--text-white);
+	color: var(--text-light);
 	line-height: 28px;
 }
 
-.link-watchvideo {
+.link-watch-video {
 	color: var(--primary-color);
 	line-height: 24px;
 	text-decoration: underline;
@@ -43,7 +43,7 @@
 	top: 35px;
 }
 
-.link-watchvideo::before {
+.link-watch-video::before {
 	content: '';
 	border: 10px solid;
 	border-color: transparent transparent transparent var(--primary-color);
@@ -52,7 +52,7 @@
 	left: -18px;
 }
 
-.btn-getstarted {
+.btn-get-started {
 	float: left;
 	line-height: 24px;
 	font-weight: 700;
@@ -79,11 +79,11 @@
 		margin-top: 40px;
 	}
 
-	.btn-getstarted {
+	.btn-get-started {
 		margin-left: 100px;
 	}
 
-	.link-watchvideo {
+	.link-watch-video {
 		margin-right: 140px;
 	}
 }
@@ -114,26 +114,23 @@
 		margin-right: 0;
 	}
 
-	.btn-getstarted {
-		background-color: var(--primary-color);
-		border: none;
-		cursor: pointer;
+	.btn-get-started {
 		margin-top: 30px;
 		margin-left: 0;
 		padding: 1rem 2.8rem;
 	}
 
-	.btn-getstarted:hover {
+	.btn-get-started:hover {
 		opacity: 0.8;
 	}
 
-	.link-watchvideo {
+	.link-watch-video {
 		position: relative;
 		top: 47px;
 		left: -20px;
 	}
 
-	.link-watchvideo:hover {
+	.link-watch-video:hover {
 		opacity: 0.8;
 	}
 

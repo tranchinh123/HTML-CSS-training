@@ -1,12 +1,12 @@
 /* Mobile */
-.page-signup {
+.sign-up {
 	margin: auto;
 	width: auto;
 	max-width: 25.688rem;
 	margin-top: 120px;
 }
 
-.heading-signup {
+.heading-sign-up {
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 48px;
@@ -19,7 +19,7 @@
 	grid-template-columns: 1fr;
 	text-align: center;
 	margin-top: 30px;
-	color: var(--text-white);
+	color: var(--text-light);
 }
 
 .card {
@@ -28,12 +28,12 @@
 	margin-top: 30px;
 }
 
-.icon-signup {
+.icon-sign-up {
 	width: 51.14px;
 	height: 50px;
 }
 
-.signheading-text {
+.sign-heading-text {
 	font-weight: 600;
 	font-size: 1.375rem;
 	line-height: 33px;
@@ -46,12 +46,12 @@
 	margin-top: 13px;
 }
 
-.singup-now {
+.sign-up-now {
 	text-align: center;
 	margin-top: 30px;
 }
 
-.btn-signupnow {
+.btn-sign-up-now {
 	border-radius: 10px;
 	font-weight: 700;
 	line-height: 24px;
@@ -59,12 +59,12 @@
 }
 /* Tablet */
 @media (min-width: 720px) and (max-width: 1023px) {
-	.page-signup {
+	.sign-up {
 		max-width: 44.375rem;
 		margin-bottom: 100px;
 	}
 
-	.heading-signup {
+	.heading-sign-up {
 		padding: 0rem 9rem;
 	}
 
@@ -89,12 +89,12 @@
 }
 /* PC */
 @media (min-width: 1024px) {
-	.page-signup {
+	.sign-up {
 		max-width: 70rem;
 		margin-top: 70px;
 	}
 
-	.heading-signup {
+	.heading-sign-up {
 		width: auto;
 		margin: auto;
 		max-width: 31.563rem;
@@ -109,21 +109,17 @@
 		text-align: left;
 	}
 
-	.sign-up .btn-signupnow {
-		background-color: var(--primary-color);
-		border-radius: 10px;
+	.sign-up .btn-sign-up-now {
 		margin-top: 20px;
-		cursor: pointer;
-		border: none;
 		margin-left: -37px;
 		padding: 1rem 4.2rem;
 	}
 
-	.page-signup .btn-signupnow:hover {
+	.sign-up .btn-sign-up-now:hover {
 		opacity: 0.8;
 	}
 
-	.page-signup .singup-now {
+	.sign-up .sing-up-now {
 		display: flex;
 		justify-content: center;
 		margin-top: 20px;

@@ -12,7 +12,7 @@ nav {
 }
 
 .nav-text {
-	color: var(--text-white);
+	color: var(--text-light);
 	font-size: 1.875rem;
 	position: relative;
 	font-weight: 700;
@@ -63,7 +63,7 @@ nav {
 	.link-activite {
 		font-weight: 600;
 		line-height: 28px;
-		color: var(--text-white);
+		color: var(--text-light);
 	}
 
 	.nav-links {
@@ -74,7 +74,7 @@ nav {
 
 	.link a {
 		display: inline-block;
-		color: var(--text-white);
+		color: var(--text-light);
 		margin-left: 40px;
 		font-weight: 500;
 	}
@@ -84,28 +84,26 @@ nav {
 		opacity: 0.7;
 	}
 
-	.btn {
+	.btn-sign-in {
+		background-color: var(--bg-color);
 		padding: 0.9rem 2rem;
-		border-radius: 5px;
-		background-color: #1f2e35;
-		color: var(--text-white);
-		cursor: pointer;
-		border: 1px solid #bcd0e5;
-		font-weight: 600;
-	}
-
-	.btn {
-		margin-left: 48px;
 		font-size: 1rem;
+		font-weight: 600;
+		margin-left: 48px;
+		color: var(--text-light);
+		border: 1px solid #bcd0e5;
 	}
 
 	.btn:hover {
 		opacity: 0.8;
 	}
 
-	.btn-signup {
+	.btn-sign-up {
 		background-color: var(--primary-color);
-		border: none;
+		font-weight: 600;
+		margin-left: 48px;
+		font-size: 1rem;
+		padding: 0.9rem 2rem;
 	}
 
 	.nav-icon {
