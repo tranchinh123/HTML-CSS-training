@@ -4,4 +4,7 @@
 	--bg-color: #22343d;
 	--text-light: #fff;
 	--text-dark: black;
+	--font-family-primary: 'Poppins', sans-serif;
+	--font-family-secondary: 'Montserrat', sans-serif;
+	--font-family-tertiary: 'Inter', sans-serif;
 }

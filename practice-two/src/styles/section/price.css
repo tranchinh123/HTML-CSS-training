@@ -41,7 +41,7 @@
 
 .price-des {
 	margin: auto;
-	font-family: 'Inter', sans-serif;
+	font-family: var(--font-family-tertiary);
 	font-weight: 500;
 }
 
@@ -68,7 +68,7 @@
 	line-height: 22px;
 	font-weight: 600;
 	margin-top: 50px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--font-family-secondary);
 	padding: 0.7rem 1.2rem;
 }
 
