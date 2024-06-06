@@ -1,5 +1,5 @@
 /* Mobile */
-html {
+main {
 	background-color: var(--bg-color);
 }
 
@@ -8,7 +8,7 @@ nav {
 	align-items: center;
 	justify-content: space-around;
 	position: relative;
-	margin-top: 10px;
+	padding-top: 10px;
 }
 
 .nav-text {
@@ -56,7 +56,7 @@ nav {
 		max-width: 87.5rem;
 		justify-content: space-evenly;
 		margin: auto;
-		margin-top: 30px;
+		padding-top: 30px;
 		margin-bottom: 30px;
 	}
 

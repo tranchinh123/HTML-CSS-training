@@ -60,7 +60,7 @@
 .price-text-standard,
 .text-description-standard,
 .price-standard .price-heading {
-	color: var(--text-light) !important;
+	color: var(--text-light);
 }
 
 .btn-order-now {
@@ -80,10 +80,6 @@
 	margin-right: 18px;
 	color: var(--primary-color);
 	line-height: 100px;
-}
-
-.color-white {
-	color: var(--text-light) !important;
 }
 
 .price-month {
@@ -111,6 +107,11 @@
 	letter-spacing: 0.2px;
 	text-align: center;
 	margin-right: 10px;
+}
+
+.price-detail-standard,
+.currency-unit-standard {
+	color: var(--text-light);
 }
 
 /* Tablet */
