@@ -1,0 +1,140 @@
+/* Mobile */
+.introduction {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
+.introduction-imagine {
+	width: 21.125rem;
+	max-width: 100%;
+	margin: auto;
+}
+
+.heading-introduction {
+	font-weight: 700;
+	line-height: 60px;
+	font-size: 2.25rem;
+	color: var(--text-light);
+	text-align: center;
+	margin-top: 15px;
+}
+
+.introduction-content {
+	width: auto;
+	max-width: 23.063rem;
+	text-align: center;
+	margin: auto;
+}
+
+.introduction-text {
+	margin-top: 25px;
+	color: var(--text-light);
+	line-height: 28px;
+}
+
+.link-watch-video {
+	color: var(--primary-color);
+	line-height: 24px;
+	text-decoration: underline;
+	position: relative;
+	margin-left: 30px;
+	font-weight: 600;
+	top: 35px;
+}
+
+.link-watch-video::before {
+	content: '';
+	border: 10px solid;
+	border-color: transparent transparent transparent var(--primary-color);
+	position: absolute;
+	top: 1px;
+	left: -18px;
+}
+
+.btn-get-started {
+	float: left;
+	line-height: 24px;
+	font-weight: 700;
+	font-size: 1rem;
+	margin-top: 20px;
+	padding: 1rem 2rem;
+}
+/* Tablet */
+@media (min-width: 720px) and (max-width: 1023px) {
+	.introduction {
+		width: 100%;
+		margin-bottom: 110px;
+	}
+
+	.introduction-imagine {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.introduction-content {
+		width: auto;
+		max-width: 600px;
+		margin-top: 40px;
+	}
+
+	.btn-get-started {
+		margin-left: 100px;
+	}
+
+	.link-watch-video {
+		margin-right: 140px;
+	}
+}
+/* PC */
+@media (min-width: 1024px) {
+	.introduction {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: center;
+		padding: 0 2rem;
+	}
+
+	.introduction-content {
+		margin: 0;
+		max-width: 518px;
+		width: auto;
+	}
+
+	.heading-introduction,
+	.text {
+		text-align: left;
+	}
+
+	.introduction-imagine {
+		width: 600px;
+		margin-left: 38px;
+		margin-right: 0;
+	}
+
+	.btn-get-started {
+		margin-top: 30px;
+		margin-left: 0;
+		padding: 1rem 2.8rem;
+	}
+
+	.btn-get-started:hover {
+		opacity: 0.8;
+	}
+
+	.link-watch-video {
+		position: relative;
+		top: 47px;
+		left: -20px;
+	}
+
+	.link-watch-video:hover {
+		opacity: 0.8;
+	}
+
+	.introduction-text {
+		max-width: 28.625rem;
+	}
+}

@@ -1,0 +1,23 @@
+.btn {
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	background-color: var(--primary-color);
+	color: var(--text-light);
+}
+
+.btn-secondary {
+	background-color: var(--text-light);
+	color: var(--primary-color);
+}
+
+.table {
+	width: 322px;
+	height: 456px;
+	margin-top: 30px;
+	background-color: white;
+	border-radius: 8px;
+}
