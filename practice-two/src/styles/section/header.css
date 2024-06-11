@@ -60,7 +60,7 @@ nav {
 		margin-bottom: 30px;
 	}
 
-	.link-activite {
+	.link-active {
 		font-weight: 600;
 		line-height: 28px;
 		color: var(--text-light);
@@ -76,11 +76,10 @@ nav {
 		display: inline-block;
 		color: var(--text-light);
 		margin-left: 40px;
-		font-weight: 500;
 	}
 
 	.link a:hover,
-	.link-activite:hover {
+	.link-active:hover {
 		opacity: 0.7;
 	}
 
