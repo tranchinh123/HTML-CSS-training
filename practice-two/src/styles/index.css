@@ -3,6 +3,7 @@
 @import url(./base/variables.css);
 @import url(./base/font.css);
 @import url(./base/components.css);
+@import url(./base/layout.css);
 @import url(./section/header.css);
 @import url(./section/introduction.css);
 @import url(./section/signup.css);

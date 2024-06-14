@@ -1,5 +1,4 @@
 .price-table {
-	margin: auto;
 	text-align: center;
 	margin-top: 45px;
 	color: var(--text-light);
@@ -51,10 +50,6 @@
 	font-weight: 400;
 	color: var(--text-dark);
 	margin-top: 10px;
-}
-
-.price-standard {
-	background-color: var(--primary-color);
 }
 
 .price-text-standard,
@@ -123,11 +118,6 @@
 
 /* PC */
 @media (min-width: 1024px) {
-	.price-table {
-		max-width: 70rem;
-		margin-top: 50px;
-	}
-
 	.list-prices {
 		flex-direction: row;
 		width: 100%;

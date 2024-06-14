@@ -1,12 +1,12 @@
 /* Mobile */
-main {
+body {
 	background-color: var(--bg-color);
 }
 
 nav {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	position: relative;
 	padding-top: 10px;
 }
@@ -53,8 +53,6 @@ nav {
 /* Desktop */
 @media (min-width: 1024px) {
 	nav {
-		max-width: 87.5rem;
-		justify-content: space-evenly;
 		margin: auto;
 		padding-top: 30px;
 		margin-bottom: 30px;
