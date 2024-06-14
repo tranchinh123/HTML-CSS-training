@@ -20,17 +20,17 @@
 	border: 1px solid #bcd0e5;
 }
 
-.table {
+.card-price {
 	width: 322px;
 	height: 456px;
 	margin-top: 30px;
 	border-radius: 8px;
 }
 
-.table-primary {
+.card-primary {
 	background-color: white;
 }
 
-.table-secondary {
+.card-secondary {
 	background-color: var(--primary-color);
 }
