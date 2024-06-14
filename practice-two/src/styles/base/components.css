@@ -14,15 +14,23 @@
 	color: var(--primary-color);
 }
 
+.btn-tertiary {
+	background-color: var(--bg-color);
+	color: var(--text-light);
+	border: 1px solid #bcd0e5;
+}
+
 .table {
 	width: 322px;
 	height: 456px;
 	margin-top: 30px;
 	border-radius: 8px;
 }
+
 .table-primary {
 	background-color: white;
 }
+
 .table-secondary {
 	background-color: var(--primary-color);
 }

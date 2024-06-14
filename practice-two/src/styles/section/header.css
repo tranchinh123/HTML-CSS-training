@@ -82,13 +82,10 @@ nav {
 	}
 
 	.btn-sign-in {
-		background-color: var(--bg-color);
-		padding: 0.9rem 2rem;
 		font-size: 1rem;
 		font-weight: 600;
 		margin-left: 48px;
-		color: var(--text-light);
-		border: 1px solid #bcd0e5;
+		padding: 0.9rem 2rem;
 	}
 
 	.btn:hover {
